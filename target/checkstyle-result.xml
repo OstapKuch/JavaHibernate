@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/services/ReservationsService.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/services/BillingsService.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/services/ApartmentsService.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/services/ApartmentsHasReservationsService.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/services/SellersService.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/services/AirbnbWalletService.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/services/BuyersService.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/models/BuyersEntity.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/models/AirbnbWalletEntity.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/models/ApartmentsEntity.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/models/ApartmentsHasReservationsEntity.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/models/ReservationsEntity.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/models/SellersEntity.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/models/BillingsEntity.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/ReservationsDAO.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/SellersDAO.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/BuyersDAO.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/AirbnbWalletDAO.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/ApartmentsHasReservationsDAO.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/BillingsDAO.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/implementation/ApartmentsDaoImpl.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/implementation/ReservationsDaoImpl.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/implementation/ApartmentsHasReservationsDaoImpl.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/implementation/SellersDaoImpl.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/implementation/BuyersDaoImpl.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/implementation/AirbnbWalletDaoImpl.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/implementation/BillingsDaoImpl.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/ApartmentsDAO.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/DAO/GeneralDAO.java">
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/utils/HibernateSessionFactoryUtil.java">
+<error line="3" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - com.iot.models.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="8" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/Main.java">
+<error line="5" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/ViewAndController/MyView.java">
+<error line="4" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - com.iot.services.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="5" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - com.iot.models.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="9" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="/home/ostap/IdeaProjects/lab_04_db/src/main/java/com/iot/ViewAndController/Printable.java">
+</file>
+</checkstyle>
